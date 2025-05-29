@@ -7,10 +7,11 @@ const DEFAULT_TIMEOUT: number = 5000;
 const ENABLE_CACHING: boolean = true;
 const DEFAULT_UNIT: TemperatureUnit = "Celsius";
 
-console.log("Weather App COnfig:");
+console.log("Weather App Config:");
 console.log({
     API_BASE_URL,
     DEFAULT_TIMEOUT,
     ENABLE_CACHING,
     DEFAULT_UNIT
 });
+
